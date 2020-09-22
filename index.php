@@ -43,15 +43,23 @@
                                 <input type="text" class="form-control" placeholder="Producto1" name="producto1">
                                 </div>
                                 <div class="col">
-                                <input type="text" class="form-control" placeholder="Precio1($)" name="precio1">
+                                <input type="number" class="form-control" placeholder="Precio1($)" name="precio1">
                                 </div>
                         </div>
                         <button type="submit" class="btn btn-primary mt-3 btn-block" name="botonCalcular">CALCULAR</button>
                     </form>
 
                     <?php
-                        if(isset()){
+                        if(isset($_POST["botonCalcular"])){
 
+                            $precioProducto1=$_POST["precio1"];
+                            $nombreProducto1=$_POST["producto1"];
+
+                            $costoEnvio=5000;
+
+                            $total=$precioProducto1+$costoEnvio;
+
+                            echo("El total de la compra es de : ".$total);
                         }
 
                     ?>
