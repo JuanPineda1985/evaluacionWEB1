@@ -24,6 +24,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Salario.php">Salario</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/MasaCorporal.php">Masa Corporal</a>
+                            </li>
                         </ul>
                     </div>    
     </header>

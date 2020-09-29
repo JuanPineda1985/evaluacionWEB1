@@ -16,29 +16,25 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Calculadora<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#">Masa Corporal<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Salario.php">Salario</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Salpicon.php">Salpicon</a>
+                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Calc.php">Calculadora</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/MasaCorporal.php">Masa Corporal</a>
+                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Salpicon.php">Calculadora</a>
                             </li>
                         </ul>
                     </div>    
     </header>
         <br></br>
-        <form action="calculos.php">
+        <form action="calculos3.php">
+            <label>Peso</label>
             <input type="text" name="n1">
-            <select name="op">
-                <option value="+">+</option>
-                <option value="-">-</option>
-                <option value="*">*</option>
-                <option value="/">/</option>
-            </select>
+            <label>Estatura</label>
             <input type="text" name="n2">
             <input type="submit">
         </form>
