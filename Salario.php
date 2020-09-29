@@ -22,7 +22,7 @@
                                 <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Calc.php">Calculadora</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Salpicon</a>
+                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Salpicon.php">Salpicon</a>
                             </li>
                         </ul>
                     </div>    

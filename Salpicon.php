@@ -16,27 +16,20 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Calculadora<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#">Salpicon<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Calc.php">Calculadora</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Salario.php">Salario</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Salpicon.php">Salpicon</a>
                             </li>
                         </ul>
                     </div>    
     </header>
         <br></br>
-        <form action="calculos.php">
+        <form action="calculos2.php">
             <input type="text" name="n1">
-            <select name="op">
-                <option value="+">+</option>
-                <option value="-">-</option>
-                <option value="*">*</option>
-                <option value="/">/</option>
-            </select>
-            <input type="text" name="n2">
             <input type="submit">
         </form>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
