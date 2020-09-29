@@ -33,9 +33,9 @@
         <br></br>
         <form action="calculos3.php">
             <label>Peso</label>
-            <input type="text" name="n1">
-            <label>Estatura</label>
-            <input type="text" name="n2">
+            <input type="number" name="n1">
+            <label>Estatura (en centimetros)</label>
+            <input type="number" name="n2">
             <input type="submit">
         </form>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
