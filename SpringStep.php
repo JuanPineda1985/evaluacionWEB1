@@ -36,7 +36,12 @@
             <br>
             <input type="text" name="n1">
             <br>
+            <br>
             <label>Precio</label>
+            <br>
+            <label>zapato formal / 12000</label>
+            <br>
+            <label>zapato Sport / 8000 </label>
             <br>
             <input type="text" name="n2">
             <br>
