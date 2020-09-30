@@ -1,12 +1,12 @@
 <?php
 $n1 = $_GET['n1'];
 $n2 = $_GET['n2'];
-$AltMt = $n1/100;
-$imc = $n2/($AltMt*$AltMt);
+$Alt = $n1/100;
+$imc = $n2/($Alt*$Alt);
 
 if($imc<18){
     echo "Peso insuficiente ";
-}elseif ($imc <= 24) {
+}elseif ($imc>=24) {
     echo "peso normal ";
 }elseif ($imc == 24 && $imc <= 27) {
     echo "sobrepeso grado 1 "; 
