@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Programacion para la Web</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Calculadora</a>
+            <a class="navbar-brand" href="#">Programacion para la Web</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,7 +25,7 @@
                                 <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Calc.php">Calculadora</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/Salpicon.php">Salpicon</a>
+                                <a class="nav-link" href="http://localhost:8088/evaluacionWEB1/SpringStep.php">Spring Step</a>
                             </li>
                         </ul>
                     </div>    
@@ -33,9 +33,9 @@
         <br></br>
         <form action="calculos3.php">
             <label>Peso</label>
-            <input type="number" name="n1">
-            <label>Estatura (en centimetros)</label>
-            <input type="number" name="n2">
+            <input type="text" name="n1">
+            <label>Estatura (cm)</label>
+            <input type="text" name="n2">
             <input type="submit">
         </form>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
