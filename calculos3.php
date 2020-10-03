@@ -1,7 +1,7 @@
 <?php
 $n1 = $_GET['n1'];
 $n2 = $_GET['n2'];
-$Alt = $n2*$n2
+$Alt = $n2*$n2;
 $imc = $n1/$Alt;
 
 if($imc<18){
